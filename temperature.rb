@@ -22,4 +22,3 @@ else
   converted_temperature = converted_temperature.round(2)
   puts "The temperature in Fahrenheit is #{converted_temperature}"
 end
-
