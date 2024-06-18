@@ -1,5 +1,4 @@
-
-def get_user_input
+def user_input
   puts 'What is your weight?'
   weight = gets.chomp.to_f
   puts 'Is this weigth in (K)g or (L)bs?'
@@ -35,7 +34,7 @@ def print_weight_conversion(weight, unit)
 end
 
 def main
-  weight, unit = get_user_input
+  weight, unit = user_input
   print_weight_conversion(weight, unit)
 end
 
